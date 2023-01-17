@@ -18,7 +18,7 @@
       color: #fff;
       text-decoration: none;
       font-size: 20px;
-      font-weight: bold; 
+      font-weight: bold;
       font-family: 'Roboto Slab', serif;
   }
 
@@ -28,7 +28,7 @@
       color: #fff;
   }
 
-  /* estilos para dispositivos moviles */
+  /* estilos para dispositivos moviles
 
   @media (max-width: 768px) {
 
@@ -36,16 +36,17 @@
           display: none;
       }
 
-      /* ocultamos la barra */
+      /* ocultamos la barra 
 
-      .navbar-collapse {
-          position: fixed;
-          width: 100%;
-          top: -100%;
-          left: -100%;
-          background: fixed;
-      }
+  .navbar-collapse {
+      position: fixed;
+      width: 100%;
+      top: -100%;
+      left: -100%;
+      background: fixed;
   }
+  }*/
+
 
   .logo {
       font-size: 1.6em;
@@ -56,4 +57,31 @@
       font-variant: normal;
 
       color: rgb(0, 0, 0);
+  }
+
+  .contenedor-slider {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      max-width: 1200px;
+      padding: 0px 40px;
+  }
+
+  .slider-izquierdo,
+  .slider-derecho {
+      width: 100%;
+  }
+
+  .slider-izquierdo img,
+  .slider-derecho img {
+      width: 100%;
+
+  }
+
+  .slider-screen {
+      width: 90%;
+  }
+
+  .slider-screen img {
+      width: 100%;
   }
